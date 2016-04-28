@@ -14,7 +14,7 @@ Note the *Primary key*.
 
 Find all the fields labled \[replace\] in the solution and add the appropriate values as noted above.
 
-Use your IoT Suite's main landing page's (https://\[solutionname\].azurewebsites.net/Dashboard/Index) "Add device" function to create a new device. Note it's *Name* and *Authentication Key 1* which are needed by the main porject *Win10IoT Thermo*.
+Use your IoT Suite's main landing page's (https://\[solutionname\].azurewebsites.net/Dashboard/Index) "Add device" function to create a new device. Note it's *Name* and *Authentication Key 1* which are needed by the main project *Win10IoT Thermo*.
 
 ##Projects in the Solution
 
@@ -29,6 +29,12 @@ This project contains the driver used by the Windows 10 IoT UWP app to talk to t
 
 ###Windows10 IoT Thermo (Universal Windows)
 This is the main UWP app that runs on the Raspberry PI, reads temperature and humidity values and submits them to the IoT Suite solution.
+
+##Hardware schema
+The schema for building the sensor assembly can be found in the Fritzing files attached.
+**Win10IoT Thermo Diagram Cobbler.fzz** contains the hardware schema if connected directly to the Raspberry PI's outputs.
+**Win10IoT Thermo Diagram.fzz** contains the hardware schema using a cobbler.
+The *Fritzing* app can be obtained here: http://fritzing.org/download/
 
 ##External Libraries / Code
 
