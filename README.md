@@ -1,6 +1,8 @@
 # Win10IoT-Thermo-IoTSuite-Demo
 Demo of Windows 10 IoT Core running on Raspberry PI connecting to Azure IoT Suite.
+
 This project has been created for demo purposes by sascha@corti.com (@TechPreacher).
+
 This project is free to use for any purposes. Please respect the license terms that apply to 3rd party libraries or code used in this project (see *External Libraries / Code* section)
 
 ##Configuring the solution
@@ -32,8 +34,11 @@ This is the main UWP app that runs on the Raspberry PI, reads temperature and hu
 
 ##Hardware schema
 The schema for building the sensor assembly can be found in the Fritzing files attached.
+
 **Win10IoT Thermo Diagram Cobbler.fzz** contains the hardware schema if connected directly to the Raspberry PI's outputs.
+
 **Win10IoT Thermo Diagram.fzz** contains the hardware schema using a cobbler.
+
 The *Fritzing* app can be obtained here: http://fritzing.org/download/
 
 ##External Libraries / Code
